@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F5F7FA; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.top-bar { background: #1A3A5C; height: 6pt; }
+.header { margin: 28pt 40pt 0 40pt; }
+h2 { color: #1A3A5C; font-size: 28pt; margin: 0 0 4pt 0; }
+.line { width: 60pt; height: 3pt; background: #2B579A; }
+.content { margin: 20pt 40pt 0 40pt; display: flex; gap: 16pt; }
+.card {
+  flex: 1; background: #FFFFFF; border-radius: 8pt;
+  padding: 18pt; text-align: center;
+}
+.card .num {
+  background: #2B579A; color: #FFFFFF; border-radius: 50%;
+  width: 32pt; height: 32pt; display: inline-block; line-height: 32pt;
+  font-size: 18pt; font-weight: bold; margin-bottom: 10pt;
+}
+.card h3 { color: #1A3A5C; font-size: 14pt; margin: 0 0 8pt 0; }
+.card p { color: #555555; font-size: 10pt; margin: 0; line-height: 1.5; text-align: left; }
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="header">
+  <h2>核心功能（3 个模块）</h2>
+  <div class="line"></div>
+</div>
+<div class="content">
+  <div class="card">
+    <div class="num"><p style="margin:0;color:#FFFFFF;">1</p></div>
+    <h3>系统采集与日志分析</h3>
+    <p>Shell 一键采集 CPU/内存/磁盘/网络/进程指标；grep/sed/awk 扫描系统日志异常模式，输出标准化 JSON。</p>
+  </div>
+  <div class="card">
+    <div class="num"><p style="margin:0;color:#FFFFFF;">2</p></div>
+    <h3>AI 智能诊断引擎</h3>
+    <p>Python 封装 Prompt 调用 LLM API 分析系统健康状态，输出严重程度分级和修复建议；API 不可用时自动降级为离线规则引擎。</p>
+  </div>
+  <div class="card">
+    <div class="num"><p style="margin:0;color:#FFFFFF;">3</p></div>
+    <h3>对话式运维终端</h3>
+    <p>自然语言输入需求，"'AI 翻译为 Shell 命令"'，用户确认后执行并解读结果；内置危险命令拦截和 30 秒超时保护。</p>
+  </div>
+</div>
+</body>
+</html>

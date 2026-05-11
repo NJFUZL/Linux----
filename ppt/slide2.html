@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F5F7FA; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.top-bar {
+  background: #1A3A5C; height: 6pt;
+}
+.header {
+  margin: 28pt 40pt 0 40pt;
+}
+h2 { color: #1A3A5C; font-size: 28pt; margin: 0 0 4pt 0; }
+.line {
+  width: 60pt; height: 3pt; background: #2B579A;
+}
+.content {
+  margin: 20pt 40pt 0 40pt; flex: 1;
+}
+.card {
+  background: #FFFFFF; border-radius: 8pt;
+  padding: 18pt 24pt; margin-bottom: 14pt;
+  border-left: 5pt solid #2B579A;
+}
+.card h3 { color: #2B579A; font-size: 16pt; margin: 0 0 6pt 0; }
+.card p { color: #333333; font-size: 12pt; margin: 0; line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="header">
+  <h2>项目概述</h2>
+  <div class="line"></div>
+</div>
+<div class="content">
+  <div class="card">
+    <h3>项目目标</h3>
+    <p>开发一个融合 AI 的 Linux 系统运维助手，支持系统资源自动采集、日志智能分析、AI 诊断建议和自然语言对话式操作。</p>
+  </div>
+  <div class="card">
+    <h3>核心理念</h3>
+    <p>让 AI 读懂系统状态 — 定时采集系统指标，送入 LLM 分析，自动诊断问题并给出可操作修复建议。</p>
+  </div>
+  <div class="card">
+    <h3>交付产出</h3>
+    <p>Shell 脚本集（4个）+ Python 引擎（5个模块）+ 快照数据 + 诊断报告 + 单元测试 + 完整文档</p>
+  </div>
+</div>
+</body>
+</html>

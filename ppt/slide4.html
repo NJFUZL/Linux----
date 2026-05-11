@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F5F7FA; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.top-bar { background: #1A3A5C; height: 6pt; }
+.header { margin: 28pt 40pt 0 40pt; }
+h2 { color: #1A3A5C; font-size: 28pt; margin: 0 0 4pt 0; }
+.line { width: 60pt; height: 3pt; background: #2B579A; }
+.content { margin: 18pt 40pt 0 40pt; display: flex; gap: 20pt; }
+.left { width: 340pt; }
+.right { width: 300pt; }
+.flow-box {
+  background: #FFFFFF; border-radius: 8pt; padding: 14pt 18pt;
+  margin-bottom: 10pt; text-align: center;
+}
+.flow-box p { margin: 0; font-size: 11pt; }
+.arrow { color: #2B579A; font-size: 14pt; margin: 2pt 0; text-align: center; }
+.arrow p { margin: 2pt 0; color: #2B579A; }
+.tech-tag {
+  display: inline-block; background: #E8F0FE; border-radius: 4pt;
+  padding: 4pt 10pt; margin: 3pt;
+}
+.tech-tag p { margin: 0; font-size: 9pt; color: #1A3A5C; }
+.section-title h3 { color: #2B579A; font-size: 15pt; margin: 0 0 8pt 0; }
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="header">
+  <h2>技术架构与数据流</h2>
+  <div class="line"></div>
+</div>
+<div class="content">
+  <div class="left">
+    <div class="flow-box">
+      <p><b>crontab / 手动触发</b></p>
+    </div>
+    <div class="arrow"><p>↓</p></div>
+    <div class="flow-box">
+      <p><b>Shell 采集层</b></p>
+      <p style="font-size:10pt;color:#555;">sys_collector · log_scanner · process_guard</p>
+    </div>
+    <div class="arrow"><p>↓ JSON</p></div>
+    <div class="flow-box">
+      <p><b>Python 引擎层</b></p>
+      <p style="font-size:10pt;color:#555;">data_reader → ai_engine → report_gen</p>
+    </div>
+    <div class="arrow"><p>↓</p></div>
+    <div class="flow-box">
+      <p><b>交互层</b></p>
+      <p style="font-size:10pt;color:#555;">终端菜单 · 对话模式 · 报告查看</p>
+    </div>
+  </div>
+  <div class="right">
+    <div class="section-title"><h3>覆盖技术（11 项）</h3></div>
+    <div>
+      <div class="tech-tag"><p>Shell (bash)</p></div>
+      <div class="tech-tag"><p>grep/sed/awk</p></div>
+      <div class="tech-tag"><p>管道/重定向</p></div>
+      <div class="tech-tag"><p>进程管理</p></div>
+      <div class="tech-tag"><p>日志分析</p></div>
+      <div class="tech-tag"><p>crontab</p></div>
+      <div class="tech-tag"><p>网络命令</p></div>
+      <div class="tech-tag"><p>文件/权限</p></div>
+      <div class="tech-tag"><p>Python+Linux</p></div>
+      <div class="tech-tag"><p>Agent调用</p></div>
+      <div class="tech-tag"><p>Git 版本控制</p></div>
+    </div>
+    <div class="section-title" style="margin-top:14pt;"><h3>接口约定</h3></div>
+    <p style="font-size:10pt;color:#555;line-height:1.5;">
+      Shell <b>stdout</b> = 纯 JSON<br>
+      Shell <b>stderr</b> = 日志/提示<br>
+      Python <b>subprocess.run()</b> 调用
+    </p>
+  </div>
+</div>
+</body>
+</html>
