@@ -205,7 +205,8 @@ class TestReportGen(unittest.TestCase):
             with patch("report_gen._REPORT_DIR", tmp):
                 path = report_gen.generate(MOCK_SNAPSHOT, "测试分析结果", fmt="md")
                 self.assertTrue(os.path.isfile(path))
-                content = open(path, "r", encoding="utf-8").read()
+                with open(path, "r", encoding="utf-8") as f:
+                    content = f.read()
                 self.assertIn("系统健康报告", content)
                 self.assertIn("test-server", content)
                 self.assertIn("测试分析结果", content)
@@ -215,7 +216,8 @@ class TestReportGen(unittest.TestCase):
             with patch("report_gen._REPORT_DIR", tmp):
                 path = report_gen.generate(MOCK_SNAPSHOT, "测试分析结果", fmt="html")
                 self.assertTrue(os.path.isfile(path))
-                content = open(path, "r", encoding="utf-8").read()
+                with open(path, "r", encoding="utf-8") as f:
+                    content = f.read()
                 self.assertIn("<!DOCTYPE html>", content)
                 self.assertIn("test-server", content)
                 self.assertIn("测试分析结果", content)

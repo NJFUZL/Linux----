@@ -1,4 +1,5 @@
 """快照数据读取与查询。"""
+from __future__ import annotations
 import json
 import os
 from pathlib import Path

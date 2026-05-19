@@ -1,4 +1,5 @@
 """AI 引擎：LLM API 调用 + 离线规则引擎降级。"""
+from __future__ import annotations
 import json
 import os
 import time
