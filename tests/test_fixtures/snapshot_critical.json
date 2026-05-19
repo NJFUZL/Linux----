@@ -1,0 +1,65 @@
+{
+  "snapshot_id": "20240502_083000",
+  "hostname": "db-server-02",
+  "created_at": "2024-05-02 08:30:00",
+  "system": {
+    "timestamp": "2024-05-02 08:30:00",
+    "hostname": "db-server-02",
+    "cpu": {
+      "usage_percent": 95.8,
+      "load_avg_1min": 18.5,
+      "load_avg_5min": 15.2,
+      "load_avg_15min": 12.8,
+      "cores": 4
+    },
+    "memory": {
+      "total_mb": 8192,
+      "used_mb": 7680,
+      "available_mb": 512,
+      "usage_percent": 93.8
+    },
+    "disk": [
+      {"mount": "/", "total_gb": 100, "used_gb": 96, "available_gb": 4, "usage_percent": 96},
+      {"mount": "/var/lib/mysql", "total_gb": 500, "used_gb": 475, "available_gb": 25, "usage_percent": 95}
+    ],
+    "network": {
+      "interfaces": ["eth0", "lo"],
+      "connections_total": 2340,
+      "connections_established": 2156,
+      "connections_listening": 24
+    },
+    "processes": {
+      "total": 456,
+      "top_cpu": [
+        {"pid": 5678, "name": "mysqld", "cpu_percent": 85.3},
+        {"pid": 6789, "name": "java", "cpu_percent": 42.1},
+        {"pid": 7890, "name": "prometheus", "cpu_percent": 15.2}
+      ],
+      "top_mem": [
+        {"pid": 5678, "name": "mysqld", "mem_percent": 65.4},
+        {"pid": 6789, "name": "java", "mem_percent": 28.3},
+        {"pid": 8901, "name": "elasticsearch", "mem_percent": 12.1}
+      ]
+    }
+  },
+  "logs": {
+    "timestamp": "2024-05-02 08:30:00",
+    "hostname": "db-server-02",
+    "scanned_files": ["/var/log/syslog", "/var/log/kern.log", "/var/log/mysql/error.log"],
+    "anomalies": [
+      {"file": "/var/log/kern.log", "line": 345, "severity": "critical", "content": "Out of memory: Killed process 12345 (mysqld)"},
+      {"file": "/var/log/syslog", "line": 890, "severity": "critical", "content": "kernel: BUG: soft lockup - CPU#2 stuck for 23s!"},
+      {"file": "/var/log/mysql/error.log", "line": 1200, "severity": "error", "content": "mysqld: Too many connections (current: 500, max_connections: 500)"},
+      {"file": "/var/log/mysql/error.log", "line": 1234, "severity": "error", "content": "mysqld: Disk is full writing '/var/lib/mysql/binlog.000123'"},
+      {"file": "/var/log/syslog", "line": 1567, "severity": "error", "content": "systemd: Failed to start mysql.service - connection timed out"},
+      {"file": "/var/log/syslog", "line": 2100, "severity": "error", "content": "kernel: TCP: too many orphaned sockets"},
+      {"file": "/var/log/kern.log", "line": 678, "severity": "warning", "content": "kernel: nf_conntrack: table full, dropping packet"},
+      {"file": "/var/log/mysql/error.log", "line": 1456, "severity": "warning", "content": "mysqld: InnoDB: page_cleaner: 1000ms intended loop took 5000ms"}
+    ],
+    "summary": {
+      "total_anomalies": 8,
+      "by_severity": {"critical": 2, "error": 4, "warning": 2, "info": 0}
+    }
+  },
+  "status": "partial"
+}

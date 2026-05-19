@@ -1,0 +1,60 @@
+{
+  "snapshot_id": "20240501_120000",
+  "hostname": "web-server-01",
+  "created_at": "2024-05-01 12:00:00",
+  "system": {
+    "timestamp": "2024-05-01 12:00:00",
+    "hostname": "web-server-01",
+    "cpu": {
+      "usage_percent": 35.2,
+      "load_avg_1min": 0.85,
+      "load_avg_5min": 0.72,
+      "load_avg_15min": 0.65,
+      "cores": 8
+    },
+    "memory": {
+      "total_mb": 16384,
+      "used_mb": 7234,
+      "available_mb": 9150,
+      "usage_percent": 44.2
+    },
+    "disk": [
+      {"mount": "/", "total_gb": 200, "used_gb": 85, "available_gb": 115, "usage_percent": 42},
+      {"mount": "/data", "total_gb": 500, "used_gb": 320, "available_gb": 180, "usage_percent": 64}
+    ],
+    "network": {
+      "interfaces": ["eth0", "lo"],
+      "connections_total": 256,
+      "connections_established": 142,
+      "connections_listening": 18
+    },
+    "processes": {
+      "total": 312,
+      "top_cpu": [
+        {"pid": 2345, "name": "nginx", "cpu_percent": 12.5},
+        {"pid": 1234, "name": "mysqld", "cpu_percent": 8.3},
+        {"pid": 3456, "name": "php-fpm", "cpu_percent": 5.1}
+      ],
+      "top_mem": [
+        {"pid": 1234, "name": "mysqld", "mem_percent": 23.4},
+        {"pid": 2345, "name": "nginx", "mem_percent": 8.2},
+        {"pid": 4567, "name": "redis-server", "mem_percent": 5.6}
+      ]
+    }
+  },
+  "logs": {
+    "timestamp": "2024-05-01 12:00:00",
+    "hostname": "web-server-01",
+    "scanned_files": ["/var/log/syslog", "/var/log/auth.log"],
+    "anomalies": [
+      {"file": "/var/log/syslog", "line": 1234, "severity": "warning", "content": "nginx: worker process 2345 exited on signal 15"},
+      {"file": "/var/log/auth.log", "line": 56, "severity": "warning", "content": "Failed password for root from 192.168.1.100 port 22"},
+      {"file": "/var/log/syslog", "line": 2345, "severity": "warning", "content": "php-fpm: pool www reached pm.max_children setting"}
+    ],
+    "summary": {
+      "total_anomalies": 3,
+      "by_severity": {"critical": 0, "error": 0, "warning": 3, "info": 0}
+    }
+  },
+  "status": "ok"
+}

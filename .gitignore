@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project
+data/snapshots/*.json
+data/reports/*.html
+data/reports/*.md
+!tests/test_fixtures/*.json
+
+# Temp
+*.tmp
+*.log
+/tmp/
+
+# Secrets
+config.yaml.local
+.env
+*.key
