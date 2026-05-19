@@ -28,6 +28,7 @@ data/reports/*.md
 /tmp/
 
 # Secrets
+config.yaml
 config.yaml.local
 .env
 *.key
