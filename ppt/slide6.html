@@ -12,23 +12,23 @@ body {
 .header { margin: 28pt 40pt 0 40pt; }
 h2 { color: #1A3A5C; font-size: 28pt; margin: 0 0 4pt 0; }
 .line { width: 60pt; height: 3pt; background: #2B579A; }
-.content { margin: 16pt 40pt 0 40pt; display: flex; gap: 14pt; }
+.content { margin: 12pt 40pt 0 40pt; display: flex; gap: 12pt; }
 .phase {
-  flex: 1; background: #FFFFFF; border-radius: 8pt; padding: 16pt;
+  flex: 1; background: #FFFFFF; border-radius: 8pt; padding: 14pt;
 }
 .phase .week {
   display: inline-block; background: #2B579A; color: #FFFFFF;
-  border-radius: 4pt; padding: 4pt 12pt; margin-bottom: 8pt;
+  border-radius: 4pt; padding: 3pt 10pt; margin-bottom: 6pt;
 }
-.phase .week p { margin: 0; font-size: 11pt; font-weight: bold; }
-.phase h3 { color: #1A3A5C; font-size: 13pt; margin: 0 0 6pt 0; }
-.phase .task { margin-bottom: 6pt; }
-.phase .task p { margin: 0; font-size: 10pt; color: #444444; line-height: 1.5; }
+.phase .week p { margin: 0; font-size: 10pt; font-weight: bold; }
+.phase h3 { color: #1A3A5C; font-size: 12pt; margin: 0 0 5pt 0; }
+.phase .task { margin-bottom: 4pt; }
+.phase .task p { margin: 0; font-size: 9pt; color: #444444; line-height: 1.4; }
 .phase .task p b { color: #2B579A; }
 .checkpoint {
-  background: #FFF9E6; border-radius: 4pt; padding: 6pt 10pt; margin-top: 8pt;
+  background: #FFF9E6; border-radius: 4pt; padding: 5pt 8pt; margin-top: 6pt;
 }
-.checkpoint p { margin: 0; font-size: 9pt; color: #8B7300; }
+.checkpoint p { margin: 0; font-size: 8pt; color: #8B7300; }
 </style>
 </head>
 <body>
@@ -41,22 +41,25 @@ h2 { color: #1A3A5C; font-size: 28pt; margin: 0 0 4pt 0; }
   <div class="phase">
     <div class="week"><p>第 1 周</p></div>
     <h3>基础设施 + 核心采集</h3>
-    <div class="task"><p><b>A：</b>Git 仓库，sys_collector.sh，log_scanner.sh</p></div>
-    <div class="task"><p><b>B：</b>Python 环境，config_loader，ai_engine 框架</p></div>
-    <div class="checkpoint"><p>✓ Shell 输出合法 JSON，Python 可解析</p></div>
+    <div class="task"><p><b>A：</b>Git 仓库，common.sh，sys_collector.sh，log_scanner.sh</p></div>
+    <div class="task"><p><b>B：</b>config_loader，data_reader，ai_engine 框架</p></div>
+    <div class="task"><p><b>C：</b>main.py 菜单框架，shell_agent 原型，utils.py</p></div>
+    <div class="checkpoint"><p>✓ Shell 输出合法 JSON，Python 可解析展示</p></div>
   </div>
   <div class="phase">
     <div class="week"><p>第 2 周</p></div>
     <h3>功能完善 + 集成</h3>
     <div class="task"><p><b>A：</b>auto_reporter.sh，cron_setup.sh，process_guard</p></div>
-    <div class="task"><p><b>B：</b>完成 ai_engine，shell_agent，report_gen</p></div>
+    <div class="task"><p><b>B：</b>ai_engine 完善(API+重试+解析)</p></div>
+    <div class="task"><p><b>C：</b>shell_agent 完善，report_gen.py</p></div>
     <div class="checkpoint"><p>✓ 全链路：采集 → AI → 报告跑通</p></div>
   </div>
   <div class="phase">
     <div class="week"><p>第 3 周</p></div>
     <h3>测试 + 文档 + 交付</h3>
-    <div class="task"><p><b>A：</b>单元测试，兼容测试，使用说明</p></div>
-    <div class="task"><p><b>B：</b>Prompt 调优，报告，演示视频</p></div>
+    <div class="task"><p><b>A：</b>test_shell.sh，兼容测试，运行截图</p></div>
+    <div class="task"><p><b>B：</b>Prompt 调优，项目报告技术章节</p></div>
+    <div class="task"><p><b>C：</b>test_python.py，集成测试，演示视频</p></div>
     <div class="checkpoint"><p>✓ Tag v1.0，所有材料打包</p></div>
   </div>
 </div>

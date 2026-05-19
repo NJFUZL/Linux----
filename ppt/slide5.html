@@ -12,28 +12,27 @@ body {
 .header { margin: 28pt 40pt 0 40pt; }
 h2 { color: #1A3A5C; font-size: 28pt; margin: 0 0 4pt 0; }
 .line { width: 60pt; height: 3pt; background: #2B579A; }
-.content { margin: 20pt 40pt 0 40pt; display: flex; gap: 20pt; }
+.content { margin: 14pt 40pt 0 40pt; display: flex; gap: 12pt; }
 .col {
   flex: 1; background: #FFFFFF; border-radius: 8pt;
-  padding: 18pt 20pt;
+  padding: 12pt 14pt;
 }
 .col .badge {
-  display: inline-block; padding: 4pt 14pt; border-radius: 14pt;
-  margin-bottom: 10pt;
+  display: inline-block; padding: 3pt 12pt; border-radius: 12pt;
+  margin-bottom: 6pt;
 }
-.col .badge p { margin: 0; font-size: 11pt; font-weight: bold; color: #FFFFFF; }
+.col .badge p { margin: 0; font-size: 10pt; font-weight: bold; color: #FFFFFF; }
 .badge-blue { background: #2B579A; }
 .badge-teal { background: #1A7A5A; }
-.col h3 { color: #1A3A5C; font-size: 16pt; margin: 0 0 8pt 0; }
-.col ul { margin: 0; padding-left: 16pt; color: #444444; font-size: 11pt; line-height: 1.8; }
-.col .highlight { background: #F0F5FB; border-radius: 4pt; padding: 8pt 10pt; margin-top: 10pt; }
-.col .highlight p { margin: 0; font-size: 10pt; color: #1A3A5C; }
+.badge-orange { background: #D4760A; }
+.col h3 { color: #1A3A5C; font-size: 13pt; margin: 0 0 6pt 0; }
+.col ul { margin: 0; padding-left: 14pt; color: #444444; font-size: 10pt; line-height: 1.7; }
 </style>
 </head>
 <body>
 <div class="top-bar"></div>
 <div class="header">
-  <h2>小组分工（2 人）</h2>
+  <h2>小组分工（3 人）</h2>
   <div class="line"></div>
 </div>
 <div class="content">
@@ -49,25 +48,30 @@ h2 { color: #1A3A5C; font-size: 28pt; margin: 0 0 4pt 0; }
       <li>cron_setup.sh — crontab 部署</li>
       <li>test_shell.sh — Shell 单元测试</li>
     </ul>
-    <div class="highlight">
-      <p><b>关键技能：</b>bash · /proc · grep/sed/awk · 管道 · crontab</p>
-    </div>
   </div>
   <div class="col">
-    <div class="badge badge-teal"><p>人员 B · Python + AI 方向</p></div>
-    <h3>模块 B：引擎与交互层</h3>
+    <div class="badge badge-teal"><p>人员 B · AI 引擎方向</p></div>
+    <h3>模块 B：诊断核心</h3>
+    <ul>
+      <li>ai_engine.py — AI 诊断引擎</li>
+      <li>data_reader.py — 快照数据读取解析</li>
+      <li>config_loader.py — 配置加载与管理</li>
+      <li>config.yaml — 全局配置（API密钥/阈值）</li>
+      <li>AI Prompt 模板设计与调优</li>
+      <li>离线规则引擎开发</li>
+    </ul>
+  </div>
+  <div class="col">
+    <div class="badge badge-orange"><p>人员 C · 交互与集成方向</p></div>
+    <h3>模块 C：界面与测试</h3>
     <ul>
       <li>main.py — 主入口交互菜单</li>
-      <li>ai_engine.py — AI 诊断引擎</li>
       <li>shell_agent.py — 对话式运维代理</li>
       <li>report_gen.py — 报告生成器</li>
-      <li>data_reader.py — 数据读取解析</li>
-      <li>config_loader.py — 配置管理</li>
+      <li>utils.py — 公共工具函数</li>
       <li>test_python.py — Python 单元测试</li>
+      <li>集成测试脚本编写</li>
     </ul>
-    <div class="highlight">
-      <p><b>关键技能：</b>Python · LLM API · subprocess · Jinja2 · Prompt</p>
-    </div>
   </div>
 </div>
 </body>

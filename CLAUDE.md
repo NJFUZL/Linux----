@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 项目概述
 
-AI 智能运维助手（AI Ops Agent）— Linux 课程项目，2 人团队，3 周开发。融合 AI + Linux 运维，支持系统资源采集、日志智能分析和自然语言对话式操作。
+AI 智能运维助手（AI Ops Agent）— Linux 课程项目，3 人团队，3 周开发。融合 AI + Linux 运维，支持系统资源采集、日志智能分析和自然语言对话式操作。
 
 ## 架构
 

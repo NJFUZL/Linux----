@@ -1,0 +1,2488 @@
+<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" mc:Ignorable="w14 w15 wp14">
+  <w:body>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="100" w:before="1200"/>
+      </w:pPr>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Linux 系统管理与 Shell 编程课程项目</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="200"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="1A3A5C"/>
+          <w:sz w:val="52"/>
+          <w:szCs w:val="52"/>
+        </w:rPr>
+        <w:t xml:space="preserve">项目规划书</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pBdr>
+          <w:bottom w:val="single" w:color="2B579A" w:sz="8" w:space="4"/>
+        </w:pBdr>
+        <w:spacing w:after="300" w:before="0"/>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:color w:val="2B579A"/>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t xml:space="preserve">AI 智能运维助手（AI Ops Agent）</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="120" w:before="280"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="1A3A5C"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+        </w:rPr>
+        <w:t xml:space="preserve">一、项目名称</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">AI 智能运维助手（AI Ops Agent）</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="120" w:before="280"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="1A3A5C"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+        </w:rPr>
+        <w:t xml:space="preserve">二、项目目标</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">开发一个融合 AI 能力的 Linux 系统运维助手工具，实现以下目标：</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">1. 通过 Shell 脚本自动采集系统资源指标（CPU、内存、磁盘、网络、进程）和日志异常，掌握 Linux 系统管理核心命令与 Shell 编程能力。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">2. 集成大语言模型（LLM）API，对采集数据进行智能分析，输出健康诊断结论和可操作的修复建议，掌握 AI Agent 工具调用技术。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">3. 提供自然语言对话式运维交互界面，用户用日常语言描述需求，系统自动翻译为 Shell 命令并解读执行结果，降低运维门槛。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="2"/>
+        </w:numPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">4. 产出可运行、可测试、可维护的完整项目，满足课程技术要求，体现团队协作与 AI 工具提效能力。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="120" w:before="280"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="1A3A5C"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+        </w:rPr>
+        <w:t xml:space="preserve">三、项目功能</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">项目包含 3 个核心功能模块，数据流为：定时/手动采集 → Shell 结构化输出 → Python 封装 → AI 分析 → 诊断报告 / 对话交互。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="1A3A5C"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">3.1 系统资源采集与日志分析</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">由 Shell 脚本实现，覆盖以下子功能：</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">sys_collector.sh — 一键采集 CPU 使用率（/proc/stat）、内存（/proc/meminfo）、磁盘（df）、网络流量（/proc/net/dev）、系统负载（/proc/loadavg）、进程 TOP10（ps），输出标准化 JSON。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">log_scanner.sh — 扫描系统日志（syslog/auth.log/kern.log），用 grep 正则匹配异常模式（SSH 暴力破解、OOM、内核错误、服务崩溃），用 awk 做统计分析（按小时分布、按 IP 排序），输出结构化 JSON。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">process_guard.sh — 监控关键进程状态（pgrep 检测存活），异常退出时记录告警日志，可选自动重启。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">auto_reporter.sh — 编排调用采集+扫描，合并生成快照 JSON，自动清理 7 天前旧文件，作为 crontab 定时任务入口。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="1A3A5C"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">3.2 AI 智能诊断引擎</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">由 Python 实现，核心能力：</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">将系统快照数据封装为结构化 Prompt，调用 LLM API（支持 OpenAI / DeepSeek / 本地 Ollama）进行分析，输出严重程度分级（Critical/Warning/Info）、根因分析、具体操作建议命令。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">内置离线规则引擎：当 AI API 不可用时，自动降级为基于阈值的规则诊断（CPU&gt;90%为 Critical，磁盘&gt;85%为 Warning 等），确保核心诊断功能不中断。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">report_gen.py — 综合诊断结果生成 Markdown 和 HTML 格式的健康报告，含系统评分、各维度详情、趋势对比、建议操作。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:after="120" w:before="200"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="1A3A5C"/>
+          <w:sz w:val="26"/>
+          <w:szCs w:val="26"/>
+        </w:rPr>
+        <w:t xml:space="preserve">3.3 对话式运维终端</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">由 Python 实现，交互循环为：用户自然语言 → LLM 理解意图 → 生成 Shell 命令 → 用户确认 → 执行 → LLM 解读结果。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="3"/>
+        </w:numPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">内置危险命令检查（拒绝 rm -rf /、fork 炸弹、dd 等），30 秒执行超时保护，支持会话内命令历史引用。示例：输入「帮我看看磁盘使用情况」→ 自动执行 df -h → 解读输出。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:br w:type="page"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="120" w:before="280"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="1A3A5C"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+        </w:rPr>
+        <w:t xml:space="preserve">四、使用技术</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">项目使用以下 11 项技术（课程要求不少于 4 项）：</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="dxa" w:w="9026"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:color="auto" w:sz="4"/>
+          <w:left w:val="single" w:color="auto" w:sz="4"/>
+          <w:bottom w:val="single" w:color="auto" w:sz="4"/>
+          <w:right w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideH w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideV w:val="single" w:color="auto" w:sz="4"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="2400"/>
+        <w:gridCol w:w="6626"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2400"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="2B579A" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">技术项</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="2B579A" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">具体应用说明</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2400"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="F2F6FA" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Shell (bash)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="F2F6FA" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">全部Shell脚本，数组/函数/条件判断/循环等Bash特性</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2400"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">grep / sed / awk</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">日志模式匹配、文本过滤替换、数据统计与聚合分析</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2400"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="F2F6FA" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">管道与重定向</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="F2F6FA" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">| 串联命令，&gt; &gt;&gt; &lt; 文件重定向，2&gt;&amp;1 stderr合并</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2400"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">文件/权限管理</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">/proc文件系统读取，chmod权限设置，find过期清理</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2400"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="F2F6FA" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">进程管理</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="F2F6FA" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">pgrep/ps进程检测，kill信号发送，systemctl服务启停</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2400"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">日志分析</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">系统日志(syslog/auth.log/kern.log)异常模式扫描与统计</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2400"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="F2F6FA" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">crontab 定时任务</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="F2F6FA" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">定时执行系统采集与报告生成，crontab配置管理</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2400"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">网络命令</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">ss/netstat连接监控，ip/curl网络状态获取</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2400"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="F2F6FA" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Python 调用 Linux</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="F2F6FA" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">subprocess.run() 调用Shell脚本和系统命令</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2400"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Agent 工具调用</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">LLM Agent模式：理解意图→规划动作→执行命令→解读结果</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2400"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="F2F6FA" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Git 版本控制</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="F2F6FA" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">全周期代码版本管理，分支策略，提交记录追踪</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="120" w:before="280"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="1A3A5C"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+        </w:rPr>
+        <w:t xml:space="preserve">五、小组分工</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">本项目共 3 人，分工如下：</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="dxa" w:w="9026"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:color="auto" w:sz="4"/>
+          <w:left w:val="single" w:color="auto" w:sz="4"/>
+          <w:bottom w:val="single" w:color="auto" w:sz="4"/>
+          <w:right w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideH w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideV w:val="single" w:color="auto" w:sz="4"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="2000"/>
+        <w:gridCol w:w="7026"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2000"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="2B579A" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">成员</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7026"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="2B579A" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">职责与负责模块</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2000"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">人员 A
+（Shell 方向）</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7026"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">1. sys_collector.sh — 系统资源采集脚本
+2. log_scanner.sh — 日志扫描与 awk 统计分析
+3. process_guard.sh — 进程守护监控
+4. auto_reporter.sh — 定时快照编排，cron_setup.sh — crontab 部署
+5. test_shell.sh — Shell 单元测试，集成测试环境搭建</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2000"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">人员 B
+（Python+AI方向）</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7026"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">1. main.py — 主程序入口（交互菜单+命令行模式）
+2. ai_engine.py — AI 诊断引擎（Prompt+API+离线规则引擎）
+3. data_reader.py / config_loader.py — 数据读取与配置管理</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2000"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">人员 C
+（交互与集成方向）</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="7026"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">1. shell_agent.py — 对话式终端代理（命令生成+安全检查+执行解读）
+2. report_gen.py — 报告生成器（Markdown + HTML 模板）
+3. utils.py — Python 公共工具函数
+4. test_python.py — Python 单元测试，集成测试脚本编写</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="120" w:before="280"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="1A3A5C"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+        </w:rPr>
+        <w:t xml:space="preserve">六、开发计划</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">项目周期共 3 周，按阶段推进：</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="dxa" w:w="9026"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:color="auto" w:sz="4"/>
+          <w:left w:val="single" w:color="auto" w:sz="4"/>
+          <w:bottom w:val="single" w:color="auto" w:sz="4"/>
+          <w:right w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideH w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideV w:val="single" w:color="auto" w:sz="4"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="1200"/>
+        <w:gridCol w:w="2200"/>
+        <w:gridCol w:w="5626"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="2B579A" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">阶段</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="2B579A" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">主题</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="2B579A" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">详细任务与分工</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">第1周</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">基础设施与核心采集</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">人员A：Git仓库搭建，common.sh，sys_collector.sh(CPU/内存/磁盘/网络)，log_scanner.sh(grep/awk日志分析)
+人员B：config_loader.py，data_reader.py，ai_engine.py(Prompt模板+API框架+离线引擎)
+人员C：main.py菜单框架，shell_agent.py交互原型，utils.py公共工具
+联调：Python调用Shell成功，采集JSON可解析展示</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">第2周</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">核心功能完善与集成</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">人员A：auto_reporter.sh快照编排，cron_setup.sh定时部署，process_guard.sh进程守护
+人员B：ai_engine.py完善(API重试+输出解析+输出解析)
+人员C：shell_agent.py完善(安全+解读循环)，report_gen.py(Markdown+HTML)
+联调：全链路采集→分析→AI诊断→报告生成</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="1200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">第3周</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">测试、文档与交付</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="5626"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">人员A：test_shell.sh单元测试，WSL/虚拟机兼容测试，使用说明(Shell部分)，运行截图
+人员B：AI异常场景测试，Prompt调优，项目报告技术章节
+人员C：test_python.py单元测试，集成测试脚本，演示视频录制，使用说明(Python部分)
+最终：Bug修复，代码清理，Tag v1.0，打包提交材料</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:spacing w:after="120" w:before="280"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:b/>
+          <w:bCs/>
+          <w:color w:val="1A3A5C"/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+        </w:rPr>
+        <w:t xml:space="preserve">七、可能风险</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:after="60" w:before="80" w:line="320"/>
+        <w:jc w:val="left"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:sz w:val="21"/>
+          <w:szCs w:val="21"/>
+        </w:rPr>
+        <w:t xml:space="preserve">以下列出项目开发过程中已识别的主要风险及应对方案：</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:type="dxa" w:w="9026"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:color="auto" w:sz="4"/>
+          <w:left w:val="single" w:color="auto" w:sz="4"/>
+          <w:bottom w:val="single" w:color="auto" w:sz="4"/>
+          <w:right w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideH w:val="single" w:color="auto" w:sz="4"/>
+          <w:insideV w:val="single" w:color="auto" w:sz="4"/>
+        </w:tblBorders>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="2200"/>
+        <w:gridCol w:w="6826"/>
+      </w:tblGrid>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="2B579A" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">风险</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6826"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:shd w:fill="2B579A" w:val="clear"/>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="FFFFFF"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">应对措施</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">AI API 不可用</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6826"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">内置离线规则引擎降级；支持DeepSeek/OpenAI/Ollama多Provider切换，AI依赖标注替代方案</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">Windows 缺少 /proc</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6826"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">sys_collector.sh 添加环境检测提示；开发测试使用 WSL2 或 Linux 虚拟机</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">日志文件权限不足</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6826"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">脚本中检查文件可读性；给出 sudo 提示；提供模拟日志用于无权限环境演示</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="2200"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:b/>
+                <w:bCs/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">3人团队工作量协调</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa" w:w="6826"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:left w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:bottom w:val="single" w:color="AAAAAA" w:sz="1"/>
+              <w:right w:val="single" w:color="AAAAAA" w:sz="1"/>
+            </w:tcBorders>
+            <w:tcMar>
+              <w:top w:type="dxa" w:w="60"/>
+              <w:left w:type="dxa" w:w="100"/>
+              <w:bottom w:type="dxa" w:w="60"/>
+              <w:right w:type="dxa" w:w="100"/>
+            </w:tcMar>
+          </w:tcPr>
+          <w:p>
+            <w:pPr>
+              <w:jc w:val="left"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+                <w:sz w:val="21"/>
+                <w:szCs w:val="21"/>
+              </w:rPr>
+              <w:t xml:space="preserve">3人分工明确，各司其职；每日沟通同步进度；优先完成核心路径(采集+诊断+报告)，非核心功能后延</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p>
+      <w:pPr>
+        <w:spacing w:before="300"/>
+      </w:pPr>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Microsoft YaHei" w:cs="Microsoft YaHei" w:eastAsia="Microsoft YaHei" w:hAnsi="Microsoft YaHei"/>
+          <w:i/>
+          <w:iCs/>
+          <w:color w:val="999999"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+        <w:t xml:space="preserve">— 本规划书适用于课程开题评审与项目全程跟踪 —</w:t>
+      </w:r>
+    </w:p>
+    <w:sectPr>
+      <w:headerReference w:type="default" r:id="rId7"/>
+      <w:footerReference w:type="default" r:id="rId8"/>
+      <w:pgSz w:w="11906" w:h="16838" w:orient="portrait"/>
+      <w:pgMar w:top="1200" w:right="1440" w:bottom="1200" w:left="1440" w:header="708" w:footer="708" w:gutter="0"/>
+      <w:pgNumType/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
